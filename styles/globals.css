@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.space-background {
+  --c-1: hsla(220, 50%, 50%, 0.4);
+  --c-2: hsla(220, 50%, 50%, 0.2);
+  --size: 100px;
+  --half: calc(var(--size) / 2);
+  position: relative;
+  isolation: isolate;
+  background-color: #161424;
+  opacity: 1;
+  background-image: radial-gradient(var(--c-1) 0.75px, transparent 0.75px),
+    radial-gradient(var(--c-2) 0.75px, #080713 0.75px);
+  background-size: var(--size) var(--size);
+  background-position: 0 0, var(--half) var(--half);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.space-background::before{
+  --c-space-dust: rgba(13, 86, 88, 0.11);
+  position: absolute;
+  inset: 0;
+  content:"";
+  height:100%;
+  width:100%;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(194, 211, 224, 0) 50%, var(--c-space-dust) 70%, rgb(0, 0, 0) 100%);
+  transition: background-color 1000ms linear;
+  z-index: -1;
 }
 
-* {
-  box-sizing: border-box;
-}
