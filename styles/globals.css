@@ -8,20 +8,20 @@
   background-color: #161424;
   opacity: 1;
   background-image: radial-gradient(var(--c-1) 0.75px, transparent 0.75px),
-    radial-gradient(var(--c-2) 0.75px, #080713 0.75px);
+    radial-gradient(var(--c-2) 0.75px, #08060f 0.75px);
   background-size: var(--size) var(--size);
   background-position: 0 0, var(--half) var(--half);
 }
 
 .space-background::before{
-  --c-space-dust: rgba(13, 86, 88, 0.11);
+  --c-space-dust: rgba(17, 85, 90, 0.11);
   position: absolute;
   inset: 0;
   content:"";
   height:100%;
   width:100%;
   background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(194, 211, 224, 0) 50%, var(--c-space-dust) 70%, rgb(0, 0, 0) 100%);
+  background: radial-gradient(circle, rgba(194, 211, 224, 0) 60%, var(--c-space-dust) 70%, rgb(0, 0, 0) 100%);
   transition: background-color 1000ms linear;
   z-index: -1;
 }

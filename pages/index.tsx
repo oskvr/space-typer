@@ -50,26 +50,26 @@ const Home: NextPage = () => {
   }
   if (!isRunning && !isGameOver) {
     return (
-        <main className="flex-1 flex flex-col items-center space-y-10 pt-52">
-          <div className="flex flex-col items-center space-y-2">
+        <main className="flex-1 flex flex-col items-center space-y-14 pt-52">
+          <div className="flex flex-col items-center">
             <button
               onClick={startGame}
               className="uppercase font-mono text-lg bg-green-600 ring-4 ring-green-800 hover:ring-green-800 hover:bg-green-600/80 ring-offset-2 hover:ring-offset-green-500 ring-offset-green-500/80 active:translate-y-0.5 px-10 py-2 rounded-none transition duration-75"
             >
               Start practice
             </button>
-            <p className="text-blue-100">
+            <p className="text-blue-100 mt-5">
               No time-limit. Stop whenever you want.
             </p>
           </div>
-          <div className="flex flex-col items-center space-y-2">
+          <div className="flex flex-col items-center">
             <button
               onClick={startGame}
               className="uppercase font-mono text-lg bg-blue-600 ring-4 ring-blue-800 hover:ring-blue-800 hover:bg-blue-600/80 ring-offset-2 hover:ring-offset-blue-500 ring-offset-blue-500/80 active:translate-y-0.5 px-10 py-2 rounded-none transition duration-75"
             >
               Start timed game
             </button>
-            <p className="text-blue-100">
+            <p className="text-blue-100 mt-5">
               Type as many words as you can in <strong>60 seconds</strong>
             </p>
           </div>
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
   }
   return (
       <main className="flex-1">
-        <div className="max-w-2xl mx-auto mt-5 text-center space-y-10">
+        <div className="max-w-2xl mx-auto mt-5 text-center space-y-10 p-10">
           <ProgressRing label={countdown} percentage={percent} />
           <h3 className="text-5xl font-mono">
             {currentWord?.split("").map((letter:string, index:number) => (
