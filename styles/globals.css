@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .space-background {
   --c-1: hsla(220, 50%, 50%, 0.4);
   --c-2: hsla(220, 50%, 50%, 0.2);

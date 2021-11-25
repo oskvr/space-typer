@@ -29,16 +29,11 @@ function Footer(){
 }
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-    <Head>
-      <script src="https://cdn-tailwindcss.vercel.app/" defer></script>
-    </Head>
     <div className="min-h-screen flex flex-col bg-zinc-900 text-zinc-100 space-background">
       <Navbar/>
       <Component {...pageProps} />
       <Footer/>
     </div>
-  </>
   )
 }
 
