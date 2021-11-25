@@ -5,8 +5,8 @@ function Navbar(){
   return(
          <header className="py-5 px-5 md:px-20">
           <nav className="flex items-center justify-between">
-            <a href="#" className="text-2xl font-mono underline">Space Typer</a>
-            <a href="#">Sign in</a>
+            <h3 className="text-2xl font-mono underline select-none">Space Typer</h3>
+            {/* <a href="#">Sign in</a> */}
           </nav>
         </header>
   )
