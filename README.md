@@ -1,34 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Space Typer 🚀
 
-## Getting Started
+A simple typing practice game made with React and TailwindCSS
 
-First, run the development server:
+![SpaceKittenGIF](https://user-images.githubusercontent.com/25221132/143467123-83549168-4cc8-4a48-a89d-3f2e52a20cc1.gif)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![HeavyBreathingCatGIF](https://user-images.githubusercontent.com/25221132/143467580-f8f55cac-4f4c-40cb-a36e-0ca4f5e3cd24.gif)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![宇宙ねこ　うちゅうねこ　宇宙猫GIF](https://user-images.githubusercontent.com/25221132/143467626-5f0643e4-0474-407d-a9c4-f084e190b127.gif)
