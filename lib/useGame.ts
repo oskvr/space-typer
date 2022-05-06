@@ -82,7 +82,7 @@ export function useGame() {
   }
   async function getRandomWordsAsync(amount = 500) {
     const res = await fetch(
-      `https://random-word-api.herokuapp.com/word?number=${amount}&swear=0`
+      `https://random-word-api.herokuapp.com/word?number=${amount}`
     );
     return await res.json();
   }
